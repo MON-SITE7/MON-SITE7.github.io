@@ -1,0 +1,613 @@
+/* Le style de la page d'acceuil */
+#body1{
+    background-image: url(images/Background/body1.jpeg);
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#entete{
+    background-image: url(images/background/navbar.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+#navbar{
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titre1{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+
+.titre1 ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.titre1 ul li a{
+    color: #f1f1f1;
+    padding: 3px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.titre1 ul li a:hover{
+    color: #FAFAFA;
+    background-color: #888;
+    border-radius: 10px;
+}
+
+.element ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.element ul li a{
+    color: #f1f1f1;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.element ul li a:hover{
+    color: #FAFAFA;
+    background-color: #888;
+    border-radius: 10px;
+}
+
+.titre2{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: center;
+    opacity: 0.8;
+    width: max-content;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.paragraphe1{
+    background-image: url(images/Background/navbar.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+    text-align: center;
+    color: #f1f1f1;
+    border-radius: 15px;
+    opacity: 0.8;
+    font-size: 20px;
+    width: max-content;
+}
+
+#section1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: black;
+    text-align: center;
+}
+
+#section1 aside img{
+    width: 350px;
+    height: 350px;
+    border-radius: 600px;
+    opacity: 0.8;
+}
+
+#section2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+#section2 aside img{
+    width: 350px;
+    height: 350px;
+    border-radius: 600px;
+    opacity: 0.8;
+}
+
+#section2 .contact ul li{
+    font-size: xx-large;
+    list-style-type: none;
+    color: azure;
+}
+
+#section2 .contact ul li a{
+    text-decoration: none;
+    color: blue;
+}
+
+#section2 .contact ul li a:hover{
+    background-color: #888;
+    color: #FAFAFA;
+    border-radius: 20px;
+}
+
+#section2 .contact ul li a:active{
+    color: red;
+}
+
+footer{
+    background-image: url(images/Background/navbar.jpg);
+    background-repeat: no-repeat;
+    font-size: 25px;
+    opacity: 0.8;
+    text-align: center;
+    color: #f1f1f1;
+    border-radius: 15px;
+}
+/* Fin de style de la page d'acceuil */
+
+
+
+
+
+/* Le style de la page "le tour de pise" */
+#body2{
+    background-image: url(images/Background/body2.jpg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+#section3{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#section3 .aside2 h1{
+    text-align: center;
+    font-size: x-large;
+    width: max-content;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#section3 .aside2{
+    text-align: justify;
+    width: 600px;
+    font-size: 1.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #a5a5a5;
+    border-radius: 15px;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section4{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.8em;
+    border-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #a5a5a5;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section4 .tour1 img{
+    display: flex;
+    float: right;
+    width: 500px;
+    height: 520px;
+    border-radius: 800px;
+    opacity: 0.8;
+    margin: auto;
+}
+
+#section5{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.8em;
+    border-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #a5a5a5;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section5 .tour2 img{
+    display: flex;
+    float: left;
+    width: 500px;
+    height: 520px;
+    border-radius: 800px;
+    margin: auto;
+    opacity: 0.8;
+}
+/* Fin de style de la page "le tour de pise" */
+
+
+
+
+
+/* Le style de la page " les statues de l'île de paques" */
+#body3{
+    background-image: url(images/Background/body3.jpg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+#section6{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#section6 .aside2 h1{
+    text-align: center;
+    font-size: x-large;
+    width: max-content;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#section6 .aside2{
+    text-align: justify;
+    width: 600px;
+    font-size: 1.1em;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #a5a5a5;
+    border-radius: 15px;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section7{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4em;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #a5a5a5;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section7 .moai1 img{
+    display: flex;
+    float: right;
+    width: 300px;
+    height: 290px;
+    border-radius: 800px;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#section8{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4em;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #a5a5a5;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section8 .moai2 img{
+    display: flex;
+    float: left;
+    width: 300px;
+    height: 290px;
+    border-radius: 800px;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#section9{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6em;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #a5a5a5;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section9 .moai3 img{
+    display: flex;
+    float: right;
+    width: 300px;
+    height: 260px;
+    border-radius: 800px;
+    margin: auto;
+    opacity: 0.8;
+}
+/* Fin de style de la page "les statues de l'île de paques"  */
+
+
+
+
+
+/* Le style de la page "le taj mahal" */
+#body4{
+    background-image: url(images/Background/body4.jpeg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+#section10{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#section10 .aside2 h1{
+    text-align: center;
+    width: max-content;
+    margin: auto;
+    font-size: x-large;
+}
+
+#section10 .aside2{
+    text-align: justify;
+    width: 600px;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #a5a5a5;
+    border-radius: 15px;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section11{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #a5a5a5;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section11 .taj1 img{
+    display: flex;
+    float: left;
+    width: 400px;
+    height: 305px;
+    border-radius: 500px;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#section12{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3em;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #a5a5a5;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section12 .taj2 img{
+    display: flex;
+    float: right;
+    width: 400px;
+    height: 320px;
+    border-radius: 500px;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#section13{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3em;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #a5a5a5;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section13 .taj3 img{
+    display: flex;
+    float: left;
+    width: 400px;
+    height: 320px;
+    border-radius: 500px;
+    margin: auto;
+    opacity: 0.8;
+}
+/* Fin de style de la page "le taj mahal" */
+
+
+
+
+
+/* Le style de la page "l'acropole d'athènes" */
+#body5{
+    background-image: url(images/Background/body5.jpg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+#section14{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#section14 .aside2 h1{
+    text-align: center;
+    width: max-content;
+    margin: auto;
+    opacity: 0.8;
+    font-size: x-large;
+}
+
+#section14 .aside2{
+    text-align: justify;
+    width: 600px;
+    font-size: 1.4em;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #a5a5a5;
+    border-radius: 15px;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section15{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6em;
+    border-radius: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #a5a5a5;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section15 .acropole1 img{
+    display: flex;
+    float: right;
+    width: 400px;
+    height: 220px;
+    border-radius: 500px;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#section16{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+    border-radius: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #a5a5a5;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section16 .acropole2 img{
+    display: flex;
+    float: left;
+    width: 400px;
+    height: 220px;
+    border-radius: 500px;
+    margin: auto;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+#body6{
+    background-image: url(images/Background/body6.jfif);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+#section17{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#section17 .aside2 h1{
+    text-align: center;
+    width: max-content;
+    margin: auto;
+    opacity: 0.8;
+    font-size: x-large;
+}
+
+#section17 .aside2{
+    text-align: justify;
+    width: 600px;
+    font-size: 1.01em;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #a5a5a5;
+    border-radius: 15px;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section18{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+    border-radius: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #a5a5a5;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section18 .burj1 img{
+    display: flex;
+    float: right;
+    width: 450px;
+    height: 500px;
+    border-radius: 500px;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#section19{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4em;
+    border-radius: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #a5a5a5;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section19 .burj2 img{
+    display: flex;
+    float: left;
+    width: 450px;
+    height: 500px;
+    border-radius: 500px;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#section20{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8em;
+    border-radius: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #a5a5a5;
+    text-align: justify;
+    background-color: rgba(3, 1, 17, 0.747);
+}
+
+#section20 .burj3 img{
+    display: flex;
+    float: right;
+    width: 350px;
+    height: 300px;
+    border-radius: 500px;
+    margin: auto;
+    opacity: 0.8;
+}
+
+
+
+#section2{
+    color: black;
+}
+
+
+
